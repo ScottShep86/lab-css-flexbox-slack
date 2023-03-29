@@ -8,3 +8,356 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+    background: #540B51;
+    text-align: center
+}
+
+ul {
+    padding: 0;
+}
+
+nav {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+
+}
+
+#navigation {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px 10px 30px;
+}  
+
+.slack_logo {
+    height: 4vh;
+}
+
+nav button {
+    background: #540B51;
+    border: none;
+}
+
+#menu {
+    list-style-type: none;
+    display: none;
+}
+
+nav, header, .register {
+    background: #540B51;
+}
+
+header {
+    padding: 10px 30px 10px 30px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-align: center
+}
+
+h1 {
+    margin-top: 0;
+    padding-top: 20px;
+    
+}
+
+span {
+    color: #2E71A6;
+    text-decoration-line: none;
+}
+
+.orange_slack {
+    color: #ECB12F;
+}
+
+.sign-up {
+    display:flex;
+    flex-direction: column;
+    height: fit-content
+}   
+
+.google_button {
+    background-color: #4285F4;
+}
+
+main {
+    background: #F3EAE2;
+}
+
+main img, .slack-screenshot{
+    width: 95vw;
+    position:relative
+}
+
+#logos {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.logo {
+    width:25%;
+    height:80px;
+    margin:10px 0px;
+   
+}
+
+.teams_info {
+    background-color:white;
+}
+
+.teams_info ul {
+    list-style-type: none;
+}
+
+.register {
+    color: white;
+    font-size: 24px;
+}
+
+.register_buttons {
+    display:flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.register_free {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: white;
+    color: #540B51;
+}
+
+.register_sales {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: 700;
+    background-color: #540B51;
+    color: white;
+}
+
+footer {
+    background-color: white;
+}
+
+footer img {
+    height: 5vh;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer_links {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.footer_infos {
+    text-align: start;
+    padding-left: 15px;
+}
+
+.footer_infos_2 {
+    padding: 10px 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.footer_menu {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    #menu {
+        display: flex;
+        justify-content: space-around;
+    }
+}
+
+/*body {
+    margin:auto;
+    background-color: #F3EAE2;
+    
+    }
+    
+    img {
+    width:100%;
+    
+    }
+    #navigation {
+        background-color: #540B51;
+        display: flex;
+        justify-content: space-evenly; 
+        width:100%;
+    
+    }
+    .nav-links {
+        list-style:none;
+    }
+    
+    .nav-names {
+        text-decoration: none;
+        color:white;
+    }
+    .logos {
+        display:flex;
+        flex-wrap:wrap;
+        justify-content: center;
+    }
+    
+    .logo {
+        width:25%;
+        height:80px;
+        margin:10px 0px;
+       
+    }
+    button {
+        width: 90%;
+        align-self: center;
+        height:50px;
+        margin-top:20px;
+    }
+    #buttons {
+        display:flex;
+        flex-direction:column;
+    }
+    
+    .fixed-nav-bar {
+        position:fixed;
+        display:flex;
+        background-color: #540B51;
+        width:100%;
+    }
+    
+    #slack-logo {
+        width:200px;
+        margin-right:400px;
+    }
+    
+    #trusted {
+        text-align:center;
+        font-size: 40px;
+    }
+    
+    #section1 {
+        background-color: #F3EAE2;
+    
+    }
+    
+    #title {
+        background-color: #540B51;
+        
+    
+    }
+    #section5 {
+        background-color: white;
+    }
+    
+    @media(min-width: 768px){
+        header{
+            align-items: center;
+            background-color:#540B51;
+            display:flex;
+            height: 800px;
+        }
+    
+    
+        button{
+            height: 25px;
+            margin-top: 10px;
+    
+        }
+    
+        img{
+            width: 85%;
+        }
+    
+        .logos {
+            flex-wrap: nowrap;
+            margin: 50px 0;
+            }
+    
+        .logo{
+            margin: 0 10px;
+            width: 100px;
+        }
+    
+        #screenshot{
+            height: 400px;
+            width: 20em;
+        }
+    
+        #title{
+            width: 70%;
+        }
+    
+        #align-right{
+            text-align: right;
+        }
+    
+        #team-buttons{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+        .team-buttons{
+            margin: 0 40px;
+        }
+    
+        #statistics{
+            display: flex;
+        }
+    
+        #subfooter-list{
+            display:flex;
+            list-style-type: none;
+        }
+    }
+    
+    @media(min-width: 1024px) {
+        .nav-links{
+            display: flex;
+            flex-direction: row;
+        }
+    
+        .nav-names{
+            margin: 0 5px;
+        }
+    
+        .row{
+            display: flex;
+        }
+    
+        .hq{
+            display: flex;
+        }
+    }
+    @media(min-width: 1440px) {
+    #buttons{
+        display:flex;
+        flex-direction: row;
+    }
+    
+    button {
+    margin: 0 5px;
+        
+    }}*/
